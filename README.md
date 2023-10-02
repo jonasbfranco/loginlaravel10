@@ -5,6 +5,7 @@ composer create-project --prefer-dist laravel/laravel my-app
 
 ### Gerar chave criptografia
 ```php
+cp .env.example .env
 php artisan key:generate --ansi
 ```
 ### Connecting our Database
