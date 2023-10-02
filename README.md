@@ -3,6 +3,10 @@
 composer create-project --prefer-dist laravel/laravel my-app
 ```
 
+### Gerar chave criptografia
+```php
+php artisan key:generate --ansi
+```
 ### Connecting our Database
 - open .env file root directory.
 
@@ -35,6 +39,14 @@ resources/views/home.blade.php
 ```
 ### Define Route 
 - routes/web.php
+
+
+### Comandos diversos
+```php
+php artisan vendor:publish --tag=laravel-assets --ansi --force
+php artisan package:discover --ansi
+```
+
 
 ***
 
