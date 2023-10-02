@@ -1,3 +1,43 @@
+# Comandos
+```php
+composer create-project --prefer-dist laravel/laravel my-app
+```
+
+### Connecting our Database
+- open .env file root directory.
+
+```php
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laraveldb
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### Create Controller AuthController
+```php 
+php artisan make:controller AuthController
+```
+
+### Create Controller HomeController
+```php 
+php artisan make:controller HomeController
+```
+
+### Create Blade View
+- Bootstrap 5 https://getbootstrap.com/docs/5.3/getting-started/download/
+
+```php 
+resources/views/login.blade.php
+resources/views/register.blade.php
+resources/views/home.blade.php
+```
+### Define Route 
+- routes/web.php
+
+***
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
